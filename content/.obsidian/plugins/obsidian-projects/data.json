@@ -205,7 +205,17 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
+          "config": {
+            "orderFields": [
+              "name",
+              "title",
+              "path",
+              "aliases",
+              "draft",
+              "status",
+              "tags"
+            ]
+          },
           "filter": {
             "conjunction": "and",
             "conditions": []
@@ -233,7 +243,10 @@
               "In progress": {
                 "weight": 1,
                 "records": [
-                  "MATH 6130/202410042352.md"
+                  "MATH 6130/202410042352.md",
+                  "MATH 6130/202410111236.md",
+                  "MATH 6130/202410111234.md",
+                  "MATH 6130/202410111237.md"
                 ]
               },
               "Clean up": {
