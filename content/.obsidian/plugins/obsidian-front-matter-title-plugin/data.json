@@ -84,7 +84,7 @@
       "enabled": true
     },
     "explorer:sort": {
-      "enabled": true
+      "enabled": false
     },
     "tab": {
       "enabled": true
