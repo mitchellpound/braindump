@@ -76,7 +76,7 @@
   },
   "features": {
     "alias": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "adjust",
       "validator": "fa"
     },
@@ -84,7 +84,7 @@
       "enabled": true
     },
     "explorer:sort": {
-      "enabled": false
+      "enabled": true
     },
     "tab": {
       "enabled": true
@@ -99,7 +99,7 @@
       "enabled": false
     },
     "search": {
-      "enabled": false
+      "enabled": true
     },
     "suggest": {
       "enabled": false
