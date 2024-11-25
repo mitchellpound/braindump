@@ -55,10 +55,7 @@
                 "records": [
                   "MATH 6380/202409302325.md",
                   "MATH 6380/202410031404.md",
-                  "MATH 6380/202411121350.md",
-                  "MATH 6380/202411121353.md",
                   "MATH 6380/202411180949.md",
-                  "MATH 6380/20240103134157-tensor_product.md",
                   "MATH 6380/202411181101.md"
                 ]
               },
@@ -67,6 +64,8 @@
                 "records": [
                   "MATH 6380/202410031405.md",
                   "MATH 6380/202410031412.md",
+                  "MATH 6380/202411121350.md",
+                  "MATH 6380/202411121353.md",
                   "MATH 6380/202410091202.md"
                 ]
               },
@@ -76,6 +75,7 @@
                   "MATH 6380/202409181256.md",
                   "MATH 6380/202409301254.md",
                   "MATH 6380/202409181251.md",
+                  "MATH 6380/20240103134157-tensor_product.md",
                   "MATH 6380/202410091156.md",
                   "MATH 6380/202410021257.md",
                   "MATH 6380/202410091049.md",
@@ -114,8 +114,10 @@
     },
     {
       "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
+      "defaultName": "{{date:YYYYMMDD}}{{time:HHmm}}",
+      "templates": [
+        "Templates/project_template.md"
+      ],
       "excludedNotes": [],
       "isDefault": true,
       "dataSource": {
@@ -174,10 +176,10 @@
               "Not started": {
                 "weight": 0
               },
-              "Cleanup": {
+              "In progress": {
                 "weight": 1
               },
-              "In progress": {
+              "Cleanup": {
                 "weight": 2
               }
             }

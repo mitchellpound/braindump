@@ -7,6 +7,6 @@ tags:
 # Stratified symplectic spaces and reduction
 authors: Reyer Sjamaar, Eugene Lerman
 year: 1991
-[See in Zotero](zotero://select/items/@sjamaar1991)
+[See in Zotero](zotero://select/items/@sjamaar1991Stratified)
 
 # Literature Notes
