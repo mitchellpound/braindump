@@ -303,6 +303,75 @@
       ],
       "id": "c30157dd-8317-4598-8964-6b7f6601d340",
       "name": "MATH 6130"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYYMMDD}}{{time:HHmm}}",
+      "templates": [
+        "Templates/project_template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "MATH 6390",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "10a5a15c-64a5-40e4-a7c9-2ea1e2cac90d",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "title"
+            ],
+            "groupByField": "status",
+            "columns": {
+              "In progress": {
+                "weight": 0
+              },
+              "Cleanup": {
+                "weight": 1
+              },
+              "Done": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b09f3aa0-7a56-465f-a06e-024985844050",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "276a33ff-634f-4f6e-8dc3-d70a262913f6",
+      "name": "MATH 6390 - Algebra"
     }
   ],
   "archives": [],
